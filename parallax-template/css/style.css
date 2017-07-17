@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+p {
+  line-height: 2rem;
+}
+
+#index-banner {
+  margin-top: 65px;
+}
+
+.button-collapse {
+  color: #000000;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  color: #49374f;
+  font-size: inherit;
+}
+
+footer.page-footer {
+  padding: 20px;
+  background-color: #000000;
+  margin: 0;
+}
+
+nav {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+}
+
+nav ul a {
+  color: #000;
+}
+
+nav .brand-logo {
+  font-family: 'Lobster';
+  color: #49374f;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Ubuntu Condensed';
+  text-shadow: 3px 3px rgba(0, 0, 0, .2);
+  margin-bottom: -5px;
+}
+
+svg {
+height: 15%;
+width: 15%;
+margin: 2px;
+fill: #49374f;
+}
+
+.social {
+  margin: 5px;
+}
+
+.fa {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+  display: inline;
+  color: #fafafa;
+  font-size: 36px;
+  padding: 10px;
+}
+
+.fa:hover {
+  color: #26a69a;
+}
+
+.portfolio-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.portfolio {
+  overflow: hidden;
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+
+.portfolio-text {
+  text-align: center;
+  color: #49374f;
+  font-size: 18px;
+}
