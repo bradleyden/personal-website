@@ -100,19 +100,19 @@ fill: #49374f;
 }
 
 .fa:hover {
-  color: #26a69a;
+  color: #a7ffeb;
 }
 
 .portfolio-wrapper {
-  width: 70%;
+  width: 20%;
   margin: 0 auto;
 }
 
 .portfolio {
   overflow: hidden;
   display: inline-block;
-  width: 30%;
-  margin: 20px;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .portfolio-img {
@@ -123,4 +123,14 @@ fill: #49374f;
   text-align: center;
   color: #49374f;
   font-size: 18px;
+}
+
+.icon {
+  margin-top: 40px;
+}
+
+.quote {
+  font-family: "Ubuntu Condensed";
+  font-size: 54px;
+  text-shadow: 3px 3px rgba(0, 0, 0, .2);
 }
