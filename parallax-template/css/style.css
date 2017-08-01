@@ -69,8 +69,15 @@ nav ul a {
 }
 
 nav .brand-logo {
+  padding: 1px;
+  font-size: 32px;
   font-family: 'Lobster';
   color: #49374f;
+}
+
+nav .brand-logo:hover {
+  padding: 0;
+  font-size: 34px;
 }
 
 h1 {
@@ -104,19 +111,26 @@ fill: #49374f;
 }
 
 .portfolio-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio-item {
+  display: inline-block;
   width: 20%;
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .portfolio {
   overflow: hidden;
-  display: inline-block;
   width: 100%;
   margin: 20px auto;
 }
 
 .portfolio-img {
   width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-text {
@@ -133,4 +147,8 @@ fill: #49374f;
   font-family: "Ubuntu Condensed";
   font-size: 54px;
   text-shadow: 3px 3px rgba(0, 0, 0, .2);
+}
+
+.resume-button {
+  margin-top: 20px;
 }
